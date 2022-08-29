@@ -4,7 +4,7 @@ import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
-import slbrand from '../assets/img/slbrand.png'
+import slbrand from "../assets/img/slbrand.png";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -28,11 +28,9 @@ export const NavBar = () => {
     setActiveLink(value);
   };
   return (
-    <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
+    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">
-          <img src={logo} alt="Logo" />
-        </Navbar.Brand>
+        <Navbar.Brand href="/">Samuel Liu</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -71,8 +69,8 @@ export const NavBar = () => {
               <a href="#">
                 <img src={navIcon1} alt="nav icon 1" />
               </a>
-              <a href="#">
-                <img src={navIcon2} alt="nav icon 2" />
+              <a href="#" class="icon">
+                <i class="fab fa-github"></i>
               </a>
               <a href="#">
                 <img src={navIcon3} alt="nav icon 3" />
