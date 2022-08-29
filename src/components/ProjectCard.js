@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+import { Col } from "react-bootstrap";
 
 export const ProjectCard = ({ title, description, imgUrl }) => {
   return (

@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
-import colorSharp2 from '../assets/img/color-sharp2.png'
+import colorSharp2 from "../assets/img/color-sharp2.png";
+import TrackVisibility from "react-on-screen";
+import "animate.css";
 
 import projImg1 from "../assets/img/project-img1.png";
 import projImg2 from "../assets/img/project-img2.png";
@@ -19,10 +21,24 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            <h2>Projects</h2>
-            <p>Lorem ipsum</p>
+            {/* <TrackVisibility>
+              {({ isVisible }) => (
+                <div
+                  className={
+                    isVisible ? "animate__animated animate__slideInUp" : ""
+                  }
+                > */}
+                  <h2>Projects</h2>
+                  <p>Lorem ipsum</p>
+                {/* </div>
+              )}
+            </TrackVisibility> */}
             <Tab.Container id="project-tabs" defaultActiveKey="first">
-              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id='pills-tab'>
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
                 <Nav.Item>
                   <Nav.Link eventKey="first">Tab 1</Nav.Link>
                 </Nav.Item>
@@ -48,7 +64,7 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right"  src={colorSharp2}></img>
+      <img className="background-image-right" src={colorSharp2}></img>
     </section>
   );
 };
