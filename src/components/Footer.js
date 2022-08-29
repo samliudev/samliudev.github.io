@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Nav, Tab } from "react-bootstrap";
+import { Container, Row, Col } from "react-bootstrap";
 
 import logo from "../assets/img/logo.svg";
 import navIcon1 from "../assets/img/nav-icon1.svg";
@@ -26,13 +26,13 @@ export const Footer = () => {
               <a href="#" className="icon">
                 <i className="fab fa-github"></i>
               </a> */}
-              <a href="#">
+              <a href="/">
                 <img src={navIcon1} alt="Icon" />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src={navIcon2} alt="Icon" />
               </a>
-              <a href="#">
+              <a href="/">
                 <img src={navIcon3} alt="Icon" />
               </a>
             </div>
