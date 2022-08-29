@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/samliudev.github.io/static/css/main.625e98b1.css",
-    "main.js": "/samliudev.github.io/static/js/main.fe788842.js",
+    "main.css": "/samliudev.github.io/static/css/main.b234c2cb.css",
+    "main.js": "/samliudev.github.io/static/js/main.bc5207db.js",
     "static/js/787.119552a6.chunk.js": "/samliudev.github.io/static/js/787.119552a6.chunk.js",
     "static/media/color-sharp.png": "/samliudev.github.io/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/samliudev.github.io/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
@@ -13,6 +13,7 @@
     "static/media/project-img1.png": "/samliudev.github.io/static/media/project-img1.d593db3f12901bc685c2.png",
     "static/media/project-img2.png": "/samliudev.github.io/static/media/project-img2.2e52097c417f9f1134b0.png",
     "static/media/project-img3.png": "/samliudev.github.io/static/media/project-img3.675b30d2f975a1bc1d09.png",
+    "static/media/contact-img.svg": "/samliudev.github.io/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/slbrand.png": "/samliudev.github.io/static/media/slbrand.9c2acb0b7fa3650a8f7e.png",
     "static/media/revicons.eot": "/samliudev.github.io/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/samliudev.github.io/static/media/revicons.57fd05d4ae650374c8de.ttf",
@@ -25,12 +26,12 @@
     "index.html": "/samliudev.github.io/index.html",
     "static/media/nav-icon1.svg": "/samliudev.github.io/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/samliudev.github.io/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.625e98b1.css.map": "/samliudev.github.io/static/css/main.625e98b1.css.map",
-    "main.fe788842.js.map": "/samliudev.github.io/static/js/main.fe788842.js.map",
+    "main.b234c2cb.css.map": "/samliudev.github.io/static/css/main.b234c2cb.css.map",
+    "main.bc5207db.js.map": "/samliudev.github.io/static/js/main.bc5207db.js.map",
     "787.119552a6.chunk.js.map": "/samliudev.github.io/static/js/787.119552a6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.625e98b1.css",
-    "static/js/main.fe788842.js"
+    "static/css/main.b234c2cb.css",
+    "static/js/main.bc5207db.js"
   ]
 }
