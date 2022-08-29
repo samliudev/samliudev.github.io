@@ -5,6 +5,7 @@ import navIcon1 from "../assets/img/nav-icon1.svg";
 import navIcon2 from "../assets/img/nav-icon2.svg";
 import navIcon3 from "../assets/img/nav-icon3.svg";
 import slbrand from "../assets/img/slbrand.png";
+import { ArrowRightCircle } from "react-bootstrap-icons";
 
 export const NavBar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -30,7 +31,7 @@ export const NavBar = () => {
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
-        <Navbar.Brand href="/">Samuel Liu</Navbar.Brand>
+        <Navbar.Brand href="/" color='white'>Samuel Liu</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
@@ -76,7 +77,7 @@ export const NavBar = () => {
                 <img src={navIcon3} alt="nav icon 3" />
               </a>
               <button className="vvd" onClick={() => console.log("connect")}>
-                <span>Let's Connect</span>
+                Let's Connect <ArrowRightCircle size={25} />
               </button>
             </div>
           </span>
