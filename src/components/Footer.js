@@ -12,31 +12,33 @@ export const Footer = () => {
       <Container>
         <Row className="align-item-center">
           <Col size={12} sm={6}>
-            <img src={logo} alt="Logo" />
+            <span style={{ fontSize: 20 }}>Samuel Liu</span>
+            <br />
+            <span style={{ fontSize: 13 }}>Full Stack Developer</span>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
-            <div className="social-icon">
-              {/* {" "}
-              <a href="#" className="icon">
-                <i className="fab fa-github"></i>
+            <div className="projectcard-icon">
+              <a
+                href="https://github.com/samliudev"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div>
+                  {" "}
+                  <i className="fab fa-github fa-lg"></i>
+                </div>
               </a>
-              <a href="#" className="icon">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#" className="icon">
-                <i className="fab fa-github"></i>
-              </a> */}
-              <a href="/">
-                <img src={navIcon1} alt="Icon" />
-              </a>
-              <a href="/">
-                <img src={navIcon2} alt="Icon" />
-              </a>
-              <a href="/">
-                <img src={navIcon3} alt="Icon" />
+              <a
+                href="https://www.linkedin.com/in/liu-samuel/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <div>
+                  {" "}
+                  <i className="fab fa-linkedin fa-lg"></i>
+                </div>
               </a>
             </div>
-            <p>Copyright 2022. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>

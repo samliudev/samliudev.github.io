@@ -11,9 +11,30 @@ import projImg3 from "../assets/img/project-img3.png";
 
 export const Projects = () => {
   const projects = [
-    { title: "PokeMart", description: "ecommerce", imgUrl: projImg1 },
-    { title: "BoBo", description: "movie recommender", imgUrl: projImg2 },
-    { title: "StackChat", description: "messaging app", imgUrl: projImg3 },
+    {
+      title: "PokéMart",
+      tagline: "e-commerce",
+      description:
+        "A CRUD (Create, Read, Update, Delete) e-commerce site where users can order and purchase Pokémon cards through a sandboxed PayPal account. Admins can add/update products and manage users.",
+      imgUrl: projImg1,
+      githubUrl: "https://github.com/samliudev/PokeMart",
+    },
+    {
+      title: "BoBo",
+      tagline: "movie recommender",
+      description:
+        "Mobile application where users can form parties and vote on which movies to watch. The recommender considers which streaming sites the users have access to and which genres they prefer.",
+      imgUrl: projImg2,
+      githubUrl: "https://github.com/Gonzos-Greenery/BoBo",
+    },
+    {
+      title: "StackChat",
+      tagline: "messaging app",
+      description:
+        "Users can create group channels and send individual direct messages. Messages include text, emojis and Gifs. Users can recieve SMS notifications for incoming messages",
+      imgUrl: projImg3,
+      githubUrl: "https://github.com/StackaThon-Senior-Phase/app",
+    },
   ];
 
   return (
@@ -21,50 +42,21 @@ export const Projects = () => {
       <Container>
         <Row>
           <Col>
-            {/* <TrackVisibility>
-              {({ isVisible }) => (
-                <div
-                  className={
-                    isVisible ? "animate__animated animate__slideInUp" : ""
-                  }
-                > */}
-                  <h2>Projects</h2>
-                  <p>Lorem ipsum</p>
-                {/* </div>
-              )}
-            </TrackVisibility> */}
-            <Tab.Container id="project-tabs" defaultActiveKey="first">
-              <Nav
-                variant="pills"
-                className="nav-pills mb-5 justify-content-center align-items-center"
-                id="pills-tab"
-              >
-                <Nav.Item>
-                  <Nav.Link eventKey="first">Tab 1</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="second">Tab 2</Nav.Link>
-                </Nav.Item>
-                <Nav.Item>
-                  <Nav.Link eventKey="third">Tab 3</Nav.Link>
-                </Nav.Item>
-              </Nav>
-              <Tab.Content>
-                <Tab.Pane eventKey="first">
-                  <Row>
-                    {projects.map((project, index) => {
-                      return <ProjectCard key={index} {...project} />;
-                    })}
-                  </Row>
-                </Tab.Pane>
-                <Tab.Pane eventKey="second">sTuff</Tab.Pane>
-                <Tab.Pane eventKey="third">Things</Tab.Pane>
-              </Tab.Content>
-            </Tab.Container>
+            <h2>Projects</h2>
+
+            <Row>
+              {projects.map((project, index) => {
+                return <ProjectCard key={index} {...project} />;
+              })}
+            </Row>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt='background pic'></img>
+      <img
+        className="background-image-right"
+        src={colorSharp2}
+        alt="background pic"
+      ></img>
     </section>
   );
 };
