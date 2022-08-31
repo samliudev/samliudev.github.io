@@ -14,7 +14,7 @@ export const Footer = () => {
           <Col size={12} sm={6}>
             <span style={{ fontSize: 20 }}>Samuel Liu</span>
             <br />
-            <span style={{ fontSize: 13 }}>Full Stack Developer</span>
+            <span style={{ fontSize: 13 }}>samliu14@gmail.com | (732) 829-9726</span>
           </Col>
           <Col size={12} sm={6} className="text-center text-sm-end">
             <div className="projectcard-icon">

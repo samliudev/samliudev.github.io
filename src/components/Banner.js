@@ -10,9 +10,10 @@ export const Banner = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Developer.", "Bookworm.", "Student.", "Powerlifter."],
+      strings: ["Developer.", "Bookworm.", "Student.", "Musician."],
       typeSpeed: 100,
       backSpeed: 100,
+      backDelay: 2000,
       loop: true,
     });
     return () => {
@@ -23,35 +24,36 @@ export const Banner = () => {
   return (
     <section className="banner" id="home">
       <Container>
-        <Row>
-          <Col xs={12} md={6} xl={7}>
-            <h3 style={{ color: "#84E3FF" }}>Hi, my name is</h3>
-            <h1>Samuel Liu</h1>
-            <h1 style={{ color: "#84E3FF" }}>
-              {`I'm a `}
-              <span
-                className="wrap"
-                ref={el}
-                style={{ color: '#C15476' }}
-              ></span>
-            </h1>
-            <p>
-              Software engineer with experience in building full stack
-              applications
-            </p>
-            <a
-              target="_blank"
-              href="assets/SamuelLiu_Resume.pdf"
-              alt="Samuel Liu - Resume"
-              title="Samuel Liu - Resume"
-            >
-              Preview Resume <ArrowRightCircle size={25} />
-            </a>
-          </Col>
-          <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="Header Img"></img>
-          </Col>
-        </Row>
+        {/* <Row>
+        <Col xs={12} md={6} xl={7}> */}
+        <h3 style={{ color: "#84E3FF" }}>Hi, my name is</h3>
+        <h1>Samuel Liu</h1>
+        <h1 style={{ color: "#84E3FF" }}>
+          {`I'm a `}
+          <span className="wrap" ref={el} style={{ color: " #4a2fbd" }}></span>
+        </h1>
+        <p>
+          My first experience with coding was when I worked with food-addicted
+          rats in a research lab, while trying to adjust an automated feeding
+          test. One pandemic, two years and the development of a rat allergy
+          later, I decided that a career change was in my best interest. To
+          kickstart the next part of my life, I self-taught myself some
+          rudimentary software development and then started an immersive
+          bootcamp at FullStack Academy.
+        </p>
+        <a
+          target="_blank"
+          href="assets/SamuelLiu_Resume.pdf"
+          alt="Samuel Liu - Resume"
+          title="Samuel Liu - Resume"
+        >
+          Preview Resume <ArrowRightCircle size={25} />
+        </a>
+        {/* </Col> */}
+        {/* <Col xs={12} md={6} xl={5}>
+          <img style={{ height: 300 }} src={headerImg} alt="Header Img"></img>
+        </Col> */}
+        {/* </Row> */}
       </Container>
     </section>
   );

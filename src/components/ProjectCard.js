@@ -7,6 +7,7 @@ export const ProjectCard = ({
   description,
   imgUrl,
   githubUrl,
+  website,
 }) => {
   return (
     <Col sm={6} md={4} className="projectcard">
@@ -19,29 +20,29 @@ export const ProjectCard = ({
           </Row>
 
           <div className="projectcard-icon">
-            <Row >
-            <Col className="mx-1">
-              {" "}
-              <a href={githubUrl} target="_blank" rel="noreferrer">
-                <div>
-                  {" "}
-                  <i className="fa-solid fa-code fa-lg"></i>
-                </div>
-              </a>
-            </Col>
-            <Col className="mx-1">
-              {" "}
-              <a href={githubUrl} target="_blank" rel="noreferrer">
-                <div>
-                  {" "}
-                  <i className="fa-solid fa-eye fa-lg"></i>
-                </div>
-              </a>
-            </Col>
+            <Row>
+              <Col className="mx-1">
+                {" "}
+                <a href={githubUrl} target="_blank" rel="noreferrer">
+                  <div>
+                    {" "}
+                    <i className="fa-solid fa-code fa-lg"></i>
+                  </div>
+                </a>
+              </Col>
+              <Col className="mx-1">
+                {" "}
+                <a href={website} target="_blank" rel="noreferrer">
+                  <div>
+                    {" "}
+                    <i className="fa-solid fa-eye fa-lg"></i>
+                  </div>
+                </a>
+              </Col>
             </Row>
           </div>
 
-          <Row className="my-2 mx-2">
+          <Row className="my-2 mx-2 ">
             {" "}
             <span>{description}</span>
           </Row>
