@@ -33,13 +33,12 @@ export const Banner = () => {
           <span className="wrap" ref={el} style={{ color: " #4a2fbd" }}></span>
         </h1>
         <p>
-          My first experience with coding was when I worked with food-addicted
-          rats in a research lab, while trying to adjust an automated feeding
-          test. One pandemic, two years and the development of a rat allergy
-          later, I decided that a career change was in my best interest. To
-          kickstart the next part of my life, I self-taught myself some
-          rudimentary software development and then started an immersive
-          bootcamp at FullStack Academy.
+          My first experience with coding was when I worked with rats in a
+          research lab, while trying to adjust an automated test. One pandemic,
+          two years and the development of a rodent allergy later, I decided
+          that a career change was in my best interest. To kickstart the next
+          part of my life, I taught myself some rudimentary software development
+          and then started an immersive bootcamp at FullStack Academy.
         </p>
         <a
           target="_blank"
