@@ -26,12 +26,12 @@ export const Banner = () => {
       <Container>
         {/* <Row>
         <Col xs={12} md={6} xl={7}> */}
-        <h3 style={{ color: "#84E3FF" }}>Hi, my name is</h3>
+        <h2 style={{ color: "#84E3FF" }}>Hello, I'm</h2>
         <h1>Samuel Liu</h1>
-        <h1 style={{ color: "#84E3FF" }}>
-          {`I'm a `}
+        <h2 style={{ color: "#84E3FF" }}>
+          {`A `}
           <span className="wrap" ref={el} style={{ color: " #4a2fbd" }}></span>
-        </h1>
+        </h2>
         <p>
           My first experience with coding was when I worked with rats in a
           research lab, while trying to adjust an automated test. One pandemic,

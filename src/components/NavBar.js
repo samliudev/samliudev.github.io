@@ -29,7 +29,7 @@ export const NavBar = () => {
       <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
         <Container>
           <Navbar.Brand href="/" color="white">
-            <div className="tagline">SAMUEL LIU</div>
+            <div className="tagline">samliudev</div>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav">
             <span className="navbar-toggler-icon"></span>
@@ -86,7 +86,7 @@ export const NavBar = () => {
                 >
                   <div>
                     {" "}
-                    <i className="fab fa-github fa-lg " ></i>
+                    <i className="fab fa-github fa-lg "></i>
                   </div>
                 </a>
                 <a

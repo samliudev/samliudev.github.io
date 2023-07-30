@@ -5,7 +5,7 @@ import colorSharp2 from "../assets/img/color-sharp2.png";
 // import TrackVisibility from "react-on-screen";
 import "animate.css";
 
-import projImg1 from "../assets/img/pokemart.png";
+import projImg1 from "../assets/img/pokecenter.png";
 import projImg2 from "../assets/img/BoboDark.png";
 import projImg3 from "../assets/img/stackchat.png";
 
@@ -28,7 +28,7 @@ export const Projects = () => {
         "A CRUD (Create, Read, Update, Delete) e-commerce site where users can order and purchase Pokémon cards through a sandboxed PayPal account. Admins can add/update products and manage users.",
       imgUrl: projImg1,
       githubUrl: "https://github.com/samliudev/PokeMart",
-      website: "https://pokemart-snl.herokuapp.com/",
+      website: "https://pokemart.onrender.com/",
     },
     {
       title: "Stack Chat",
